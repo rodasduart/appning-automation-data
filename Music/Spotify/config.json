@@ -13,6 +13,16 @@
       "selectors": [
         { "type": "id", "value": "com.spotify.music:id/toolbar" }
       ]
+    },
+    "non_liked_player_button": {
+      "strategy": "KEEP_ONLY_HEADER",
+      "selectors": [
+        {
+          "type": "class",
+          "value": "android.widget.ImageButton",
+          "index": 3
+        }
+      ]
     }
   }
 }
