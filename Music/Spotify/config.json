@@ -8,6 +8,13 @@
         "com.android.car.media:id/current_time"
         ]
     },
+    "liked_song_player_screen": {
+      "strategy": "MASK_DYNAMIC_AREAS", 
+      "selectors": [
+        "com.android.car.media:id/playback_seek_bar_container",
+        "com.android.car.media:id/current_time"
+        ]
+    },
     "settings_screen": {
       "strategy": "KEEP_ONLY_HEADER",
       "selectors": [
