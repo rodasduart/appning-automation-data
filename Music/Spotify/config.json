@@ -22,7 +22,7 @@
       ]
     },
     "shuffled_song_player_screen": {
-      "strategy": "KEEP_ONLY_HEADER",
+      "strategy": "KEEP_ONLY",
       "selectors": [
         { "type": "id", "value": "com.android.car.media:id/playback_controls" }
       ]
