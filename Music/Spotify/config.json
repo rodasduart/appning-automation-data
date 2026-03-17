@@ -21,24 +21,10 @@
         { "type": "id", "value": "com.spotify.music:id/toolbar" }
       ]
     },
-    "non_liked_player_button": {
+    "shuffled_song_player_screen": {
       "strategy": "KEEP_ONLY_HEADER",
       "selectors": [
-        {
-          "type": "class",
-          "value": "android.widget.ImageButton",
-          "index": 3
-        }
-      ]
-    },
-    "liked_player_button": {
-      "strategy": "KEEP_ONLY_HEADER",
-      "selectors": [
-        {
-          "type": "class",
-          "value": "android.widget.ImageButton",
-          "index": 3
-        }
+        { "type": "id", "value": "com.android.car.media:id/playback_controls" }
       ]
     }
   }
