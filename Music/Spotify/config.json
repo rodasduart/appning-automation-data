@@ -26,7 +26,14 @@
       "selectors": [
         { "type": "id", "value": "com.android.car.media:id/playback_controls" }
       ]
+    },
+    "search_keyboard_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
+      ]
     }
   }
 }
+
 
