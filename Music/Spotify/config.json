@@ -32,8 +32,15 @@
       "selectors": [
         { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
       ]
+    },
+    "search_keyboard_with_message_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
+      ]
     }
   }
 }
+
 
 
