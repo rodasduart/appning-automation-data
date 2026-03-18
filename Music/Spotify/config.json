@@ -44,6 +44,12 @@
       "selectors": [
         { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Spotify"}
       ]
+    },
+    "library_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+        "com.android.car.media:id/minimized_playback_controls"
+        ]
     }
   }
 }
