@@ -50,6 +50,12 @@
       "selectors": [
         "com.android.car.media:id/minimized_playback_controls"
         ]
+    },
+    "minimized_player_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+        "com.android.car.media:id/linear_progress_bar"
+        ]
     }
   }
 }
