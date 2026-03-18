@@ -4,15 +4,15 @@
     "song_player_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
-        "com.android.car.media:id/playback_seek_bar_container",
-        "com.android.car.media:id/current_time"
+        { "type": "id", "value": "com.android.car.media:id/playback_seek_bar_container"},
+        {"type": "id", "value": "com.android.car.media:id/current_time"}
         ]
     },
     "liked_song_player_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
-        "com.android.car.media:id/playback_seek_bar_container",
-        "com.android.car.media:id/current_time"
+         { "type": "id", "value": "com.android.car.media:id/playback_seek_bar_container"},
+         { "type": "id", "value": "com.android.car.media:id/current_time"}
         ]
     },
     "settings_screen": {
@@ -48,13 +48,13 @@
     "library_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
-        "com.android.car.media:id/minimized_playback_controls"
+         { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"}
         ]
     },
     "minimized_player_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
-        "com.android.car.media:id/linear_progress_bar"
+      { "type": "id", "value": "com.android.car.media:id/linear_progress_bar"}
         ]
     }
   }
