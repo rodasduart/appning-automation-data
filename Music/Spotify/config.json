@@ -38,6 +38,12 @@
       "selectors": [
         { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
       ]
+    },
+    "icon_menu_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Spotify"}
+      ]
     }
   }
 }
