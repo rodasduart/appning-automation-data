@@ -51,6 +51,12 @@
          { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"}
         ]
     },
+    "library_es_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+         { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"}
+        ]
+    },
     "minimized_player_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
