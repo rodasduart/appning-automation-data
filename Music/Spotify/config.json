@@ -62,6 +62,12 @@
       "selectors": [
       { "type": "id", "value": "com.android.car.media:id/linear_progress_bar"}
         ]
+    },
+    "settings_stream_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+      { "type": "id", "value": "com.spotify.music:id/action_bar_root"}
+        ]
     }
   }
 }
