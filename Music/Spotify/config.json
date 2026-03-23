@@ -80,6 +80,15 @@
       { "type": "id", "value": "com.spotify.music:id/remove_downloads_section"},
       { "type": "id", "value": "com.spotify.music:id/clear_cache_section"}
         ]
+    },
+    "settings_logout_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+      { "type": "id", "value": "com.spotify.music:id/third_party_licenses_button"},
+      { "type": "id", "value": "com.spotify.music:id/logout_button"},
+      { "type": "id", "value": "com.spotify.music:id/logo"},
+      { "type": "id", "value": "com.spotify.music:id/app_version_title"}
+        ]
     }
   }
 }
