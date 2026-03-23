@@ -75,7 +75,10 @@
     "settings_storage_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-      { "type": "id", "value": "com.spotify.music:id/action_bar_root"}
+      { "type": "id", "value": "com.spotify.music:id/download_quality_layout"},
+      { "type": "id", "value": "com.spotify.music:id/storage_title"},
+      { "type": "id", "value": "com.spotify.music:id/remove_downloads_section"},
+      { "type": "id", "value": "com.spotify.music:id/clear_cache_section"}
         ]
     }
   }
