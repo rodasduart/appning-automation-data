@@ -68,7 +68,8 @@
       "selectors": [
       { "type": "id", "value": "com.spotify.music:id/streaming_quality_layout"},
       { "type": "id", "value": "com.spotify.music:id/offline_playback_layout"},
-      { "type": "id", "value": "com.spotify.music:id/auto_adjust_quality_layout"}
+      { "type": "id", "value": "com.spotify.music:id/auto_adjust_quality_layout"},
+      { "type": "id", "value": "com.spotify.music:id/offline_title"}
         ]
     },
     "settings_storage_screen": {
