@@ -9,10 +9,9 @@
         ]
     },
     "liked_song_player_screen": {
-      "strategy": "MASK_DYNAMIC", 
+      "strategy": "KEEP_ONLY", 
       "selectors": [
-         { "type": "id", "value": "com.android.car.media:id/playback_seek_bar_container"},
-         { "type": "id", "value": "com.android.car.media:id/current_time"}
+         { "type": "id", "value": "com.android.car.media:id/playback_controls"}
         ]
     },
     "settings_screen": {
