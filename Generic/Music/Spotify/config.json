@@ -44,6 +44,12 @@
         { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Spotify"}
       ]
     },
+    "podcast_speed_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "classWithAncestorId", "value": "android.widget.LinearLayout", "childText": "com.android.car.media:id/rows_container"}
+      ]
+    },
     "library_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
