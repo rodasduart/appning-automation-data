@@ -9,10 +9,10 @@
         ]
     },
     "liked_song_player_screen": {
-      "strategy": "KEEP_ONLY", 
+      "strategy": "KEEP_ONLY",
       "selectors": [
-         { "type": "id", "value": "com.android.car.media:id/playback_controls"}
-        ]
+        { "type": "id", "value": "com.android.car.media:id/playback_controls"}
+      ]
     },
     "settings_screen": {
       "strategy": "KEEP_ONLY",
@@ -23,7 +23,7 @@
     "shuffled_song_player_screen": {
       "strategy": "KEEP_ONLY",
       "selectors": [
-        { "type": "id", "value": "com.android.car.media:id/playback_controls" }
+        { "type": "id", "value": "com.android.car.media:id/playback_controls"}
       ]
     },
     "search_keyboard_screen": {
