@@ -71,10 +71,7 @@
     "settings_stream_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-      { "type": "id", "value": "com.spotify.music:id/streaming_quality_layout"},
-      { "type": "id", "value": "com.spotify.music:id/offline_playback_layout"},
-      { "type": "id", "value": "com.spotify.music:id/auto_adjust_quality_layout"},
-      { "type": "id", "value": "com.spotify.music:id/offline_title"}
+      { "type": "id", "value": "com.spotify.music:id/streaming_quality_layout"}
         ]
     },
     "settings_storage_screen": {
