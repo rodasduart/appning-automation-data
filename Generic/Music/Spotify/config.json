@@ -29,13 +29,13 @@
     "search_keyboard_screen": {
       "strategy": "KEEP_ONLY",
       "selectors": [
-        { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
+        { "type": "id", "value": "com.android.car.media:id/media_activity_root" }
       ]
     },
     "search_keyboard_with_message_screen": {
       "strategy": "KEEP_ONLY",
       "selectors": [
-        { "type": "id", "value": "com.android.car.media:id/car_ui_recycler_view" }
+        { "type": "id", "value": "com.android.car.media:id/media_activity_root" }
       ]
     },
     "icon_menu_screen": {
