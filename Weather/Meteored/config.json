@@ -10,14 +10,9 @@
     "home_screen": {                                                                                                                                                                                                              
     "strategy": "MASK_DYNAMIC",
     "selectors": [
-        { "type": "id", "value": "aplicacion.tiempo:id/reloj_digital" },
-        { "type": "id", "value": "aplicacion.tiempo:id/simbolo_descripcion" },                                                                                                                                                    
-        { "type": "id", "value": "aplicacion.tiempo:id/temperatura" },
-        { "type": "id", "value": "aplicacion.tiempo:id/simbolo" },                                                                                                                                                                
-        { "type": "id", "value": "aplicacion.tiempo:id/sensacion_termica" },
-        { "type": "id", "value": "aplicacion.tiempo:id/info_icon" },                                                                                                                                                              
-        { "type": "id", "value": "aplicacion.tiempo:id/info1" },                                                                                                                                                                  
-        { "type": "id", "value": "aplicacion.tiempo:id/info2" }
+        { "type": "id", "value": "aplicacion.tiempo:id/lista_dias" },
+        { "type": "id", "value": "aplicacion.tiempo:id/marco_superior" },
+        { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
     ]                                                                                                                                                                                                                           
     },
     "search_screen": {
