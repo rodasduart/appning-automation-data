@@ -1,21 +1,24 @@
-{
+{                                                                                                                                                                                                                                 
+"packageName": "aplicacion.tiempo",
+"screens": {                                                                                                                                                                                                                    
     "icon_menu_screen": {
-        "strategy": "KEEP_ONLY",
-        "selectors": [
-        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Meteored"}
-        ]
-    },
-    "menu_screen": {
-        "strategy": "MASK_DYNAMIC",
-        "selectors": [
-        { "type": "id", "value": "aplicacion.tiempo:id/reloj_digital"},
-        { "type": "id", "value": "aplicacion.tiempo:id/simbolo_descripcion"},
-        { "type": "id", "value": "aplicacion.tiempo:id/temperatura"},
-        { "type": "id", "value": "aplicacion.tiempo:id/simbolo"},
-        { "type": "id", "value": "aplicacion.tiempo:id/sensacion_termica"},
-        { "type": "id", "value": "aplicacion.tiempo:id/info_icon"},
-        { "type": "id", "value": "aplicacion.tiempo:id/info1"},
-        { "type": "id", "value": "aplicacion.tiempo:id/info2"}
-        ]
-    }
-}
+    "strategy": "KEEP_ONLY",
+    "selectors": [                                                                                                                                                                                                              
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Meteored" }
+    ]                                                                                                                                                                                                                           
+    },          
+    "home_screen": {                                                                                                                                                                                                              
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/reloj_digital" },
+        { "type": "id", "value": "aplicacion.tiempo:id/simbolo_descripcion" },                                                                                                                                                    
+        { "type": "id", "value": "aplicacion.tiempo:id/temperatura" },
+        { "type": "id", "value": "aplicacion.tiempo:id/simbolo" },                                                                                                                                                                
+        { "type": "id", "value": "aplicacion.tiempo:id/sensacion_termica" },
+        { "type": "id", "value": "aplicacion.tiempo:id/info_icon" },                                                                                                                                                              
+        { "type": "id", "value": "aplicacion.tiempo:id/info1" },                                                                                                                                                                  
+        { "type": "id", "value": "aplicacion.tiempo:id/info2" }
+    ]                                                                                                                                                                                                                           
+    }           
+}                                                                                                                                                                                                                               
+} 
