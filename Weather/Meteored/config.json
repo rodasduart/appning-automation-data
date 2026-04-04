@@ -19,6 +19,13 @@
         { "type": "id", "value": "aplicacion.tiempo:id/info1" },                                                                                                                                                                  
         { "type": "id", "value": "aplicacion.tiempo:id/info2" }
     ]                                                                                                                                                                                                                           
+    },
+    "search_screen": {
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/card_live" },
+        { "type": "id", "value": "aplicacion.tiempo:id/consulta_mas_localidades" }
+    ]
     }           
 }                                                                                                                                                                                                                               
 } 
