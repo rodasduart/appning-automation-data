@@ -38,6 +38,13 @@
         { "type": "id", "value": "aplicacion.tiempo:id/consulta_mas_localidades" }
     ]
     },
+    "search_night_screen": {
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/card_live" },
+        { "type": "id", "value": "aplicacion.tiempo:id/consulta_mas_localidades" }
+    ]
+    },
     "keyboard_screen": {
         "strategy": "MASK_DYNAMIC",
         "selectors": [
