@@ -15,6 +15,14 @@
         { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
     ]                                                                                                                                                                                                                           
     },
+    "home_screen_es": {                                                                                                                                                                                                              
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/lista_dias" },
+        { "type": "id", "value": "aplicacion.tiempo:id/marco_superior" },
+        { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
+    ]                                                                                                                                                                                                                           
+    },
     "search_screen": {
     "strategy": "MASK_DYNAMIC",
     "selectors": [
