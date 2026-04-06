@@ -27,6 +27,12 @@
         "selectors": [
             { "type": "id", "value": "aplicacion.tiempo:id/capa_transparente" }
         ]
-    }           
+    },
+    "terms_screen": {
+        "strategy":"KEEP_ONLY",
+        "selectors": [
+            { "type": "id", "value": "aplicacion.tiempo:id/scrollView_vneg" }
+        ]
+    }   
 }                                                                                                                                                                                                                               
 } 
