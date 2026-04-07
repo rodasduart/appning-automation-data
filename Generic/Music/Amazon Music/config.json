@@ -43,20 +43,14 @@
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
          { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_page_up"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_track"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_thumb"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_page_down"}
+         { "type": "id", "value": "com.android.car.media:id/car_ui_scroll_bar"}
         ]
     },
     "library_es_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
          { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_page_up"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_track"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_thumb"},
-         { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_page_down"}
+         { "type": "id", "value": "com.android.car.media:id/car_ui_scroll_bar"}
         ]
     },
     "minimized_player_screen": {
