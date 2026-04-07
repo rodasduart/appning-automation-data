@@ -62,6 +62,12 @@
       "selectors": [
       { "type": "id", "value": "com.amazon.mp3.automotiveOS:id/app_version_display"}
         ]
+    },
+    "podcast_speed_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+      { "type": "id", "value": "com.android.car.media:id/playback_controls" }
+        ]
     }
   }
 }
