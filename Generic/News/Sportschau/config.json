@@ -22,6 +22,18 @@
           { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_thumb" },
           { "type": "id", "value": "com.android.car.media:id/car_ui_scrollbar_track" }                                                                                                                                               
         ]                                                                                                                                                                                                                           
+      },
+      "like_screen": {
+        "strategy": "KEEP_ONLY",                                                                                                                                                                                                    
+        "selectors": [                                      
+          { "type": "id", "value": "com.android.car.media:id/playback_controls" }                                                                                                                                                   
+        ]                                                                                                                                                                                                                           
+      },                                                    
+      "unlike_screen": {                                                                                                                                                                                                            
+        "strategy": "KEEP_ONLY",
+        "selectors": [
+          { "type": "id", "value": "com.android.car.media:id/playback_controls" }
+        ]                                                                                                                                                                                                                           
       }  
     }
 }
