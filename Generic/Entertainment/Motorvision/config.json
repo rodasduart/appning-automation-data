@@ -6,6 +6,15 @@
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
         ]
+    },
+    "home_text_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "TV Channels"},
+        { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "Favorites"},
+        { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "Recently Watched"},
+        { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "Playlists"}
+        ]
     }
   }
 }
