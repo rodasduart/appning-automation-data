@@ -1,0 +1,14 @@
+{
+  "packageName": "com.motorvision.ott",
+  "screens": {
+    "terms_and_conditions_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
+    }
+  }
+}
+
+
+
