@@ -15,6 +15,12 @@
         { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "Recently Watched"},
         { "type": "containerIdWithText", "value": "com.motorvision.ott:id/row_title", "childText": "Playlists"}
         ]
+    },
+    "search_text_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/content_layout"}
+        ]
     }
   }
 }
