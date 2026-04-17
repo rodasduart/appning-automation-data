@@ -33,6 +33,18 @@
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
         ]
+    },
+    "privacy_policy_beginning_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
+    },
+    "privacy_policy_end_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
     }
   }
 }
