@@ -1,7 +1,13 @@
 {
   "packageName": "com.motorvision.ott",
   "screens": {
-    "terms_and_conditions_screen": {
+    "terms_and_conditions_beginning_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
+    },
+    "terms_and_conditions_end_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
