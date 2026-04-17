@@ -21,6 +21,18 @@
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/content_layout"}
         ]
+    },
+    "menu_text_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/mainDrawer"}
+        ]
+    },
+    "search_keyboard_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
     }
   }
 }
