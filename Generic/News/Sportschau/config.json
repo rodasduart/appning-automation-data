@@ -50,6 +50,12 @@
         "selectors": [
           { "type": "id", "value": "com.android.car.media:id/playback_controls" }
         ]                                                                                                                                                                                                                           
+      },
+      "keyboard_screen": {                                                                                                                                                                                                          
+        "strategy": "KEEP_ONLY",
+        "selectors": [                                                                                                                                                                                                              
+          { "type": "id", "value": "com.android.car.media:id/focus_area" }
+        ]
       }  
     }
 }
