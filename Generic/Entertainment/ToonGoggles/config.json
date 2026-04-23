@@ -4,25 +4,25 @@
     "terms_and_conditions_beginning_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-        { "type": "id", "value": "android:id/content"}
+        { "type": "id", "value": "com.toongoggles.b:id/rootLayout"}
         ]
     },
     "terms_and_conditions_end_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-        { "type": "id", "value": "android:id/content"}
+        { "type": "id", "value": "com.toongoggles.b:id/rootLayout"}
         ]
     },
     "privacy_policy_beginning_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-        { "type": "id", "value": "android:id/content"}
+        { "type": "id", "value": "com.toongoggles.b:id/rootLayout"}
         ]
     },
     "privacy_policy_end_screen": {
       "strategy": "KEEP_ONLY", 
       "selectors": [
-        { "type": "id", "value": "android:id/content"}
+        { "type": "id", "value": "com.toongoggles.b:id/rootLayout"}
         ]
     }
   }
