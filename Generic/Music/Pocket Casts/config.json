@@ -38,15 +38,6 @@
           { "type": "id", "value": "com.android.car.media:id/linear_progress_bar" },
           { "type": "id", "value": "com.android.car.media:id/metadata_background" }
         ]                                                                                                                                                                                                                           
-      },          
-      "player_screen": {                                                                                                                                                                                                            
-        "strategy": "MASK_DYNAMIC",
-        "selectors": [
-          { "type": "id", "value": "com.android.car.media:id/metadata_container" },
-          { "type": "id", "value": "com.android.car.media:id/playback_seek_bar" },
-          { "type": "id", "value": "com.android.car.media:id/playback_seek_bar_container" },
-          { "type": "id", "value": "com.android.car.media:id/play_pause_container" }
-        ]
       }
     }
   }
