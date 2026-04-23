@@ -1,0 +1,32 @@
+{
+  "packageName": "com.toongoggles.b",
+  "screens": {
+    "terms_and_conditions_beginning_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "android:id/content"}
+        ]
+    },
+    "terms_and_conditions_end_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "android:id/content"}
+        ]
+    },
+    "privacy_policy_beginning_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "android:id/content"}
+        ]
+    },
+    "privacy_policy_end_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "android:id/content"}
+        ]
+    }
+  }
+}
+
+
+
