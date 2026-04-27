@@ -52,6 +52,20 @@
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
         ]
     }
+    ,
+    "premium_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
+    }
+    ,
+    "about_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
+    }
   }
 }
 
