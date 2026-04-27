@@ -54,7 +54,8 @@
     "settings_screen": {
         "strategy": "MASK_DYNAMIC",
         "selectors": [
-            { "type": "id", "value": "aplicacion.tiempo:id/lista" }
+            { "type": "id", "value": "aplicacion.tiempo:id/lista" },
+            {"type": "id", "value": "aplicacion.tiempo:id/papito" }
         ]
     },
     "terms_screen": {
