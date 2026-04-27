@@ -65,6 +65,12 @@
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
         ]
+    },
+    "contact_us_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.motorvision.ott:id/section_content"}
+        ]
     }
   }
 }
