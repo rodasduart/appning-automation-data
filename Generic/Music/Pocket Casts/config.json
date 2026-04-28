@@ -43,7 +43,8 @@
         "strategy": "MASK_DYNAMIC",
         "selectors": [
           { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_search_bar" },
-          { "type": "id", "value": "com.android.car.media:id/error_message" }
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_title_logo" },
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_nav_icon" }
         ]                                                                                                                                                                                                                           
       }
     }
