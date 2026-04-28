@@ -88,6 +88,12 @@
       "selectors": [
       { "type": "id", "value": "com.spotify.music:id/app_version"}
         ]
+    },
+    "main_bar_screen": {
+      "strategy": "KEEP_ONLY",  
+      "selectors": [
+      { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_background"}
+        ]
     }
   }
 }
