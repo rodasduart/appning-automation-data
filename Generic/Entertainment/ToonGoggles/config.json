@@ -24,6 +24,12 @@
       "selectors": [
         { "type": "id", "value": "com.toongoggles.b:id/rootLayout"}
         ]
+    },
+    "premium_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.toongoggles.b:id/product_offering_main_container"}
+        ]
     }
   }
 }
