@@ -10,7 +10,7 @@
     "home_screen": {                                                                                                                                                                                                              
         "strategy": "KEEP_ONLY",                                                                                                                                                                                                 
         "selectors": [                                                                                                                                                                                                              
-          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_background" }                                                                                                                                  
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_background"}                                                                                                                                  
         ]                                                                                                                                                                                                                           
       },
       "home_night_screen": {                                                                                                                                                                                                              
