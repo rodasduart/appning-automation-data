@@ -63,12 +63,6 @@
         "selectors": [
             { "type": "id", "value": "aplicacion.tiempo:id/action_bar_root"}
         ]
-    },
-    "toggle_screen": {
-        "strategy":"KEEP_ONLY",
-        "selectors": [
-            { "type": "id", "value": "aplicacion.tiempo:id/checkBoxLive"}
-        ]
-    }     
+    }   
 }                                                                                                                                                                                                                               
 } 
