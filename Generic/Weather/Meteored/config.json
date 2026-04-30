@@ -55,7 +55,7 @@
         "strategy": "MASK_DYNAMIC",
         "selectors": [
             { "type": "id", "value": "aplicacion.tiempo:id/lista" },
-            {"type": "id", "value": "aplicacion.tiempo:id/papito" }
+            { "type": "id", "value": "aplicacion.tiempo:id/tbarraLayout"}
         ]
     },
     "terms_screen": {
