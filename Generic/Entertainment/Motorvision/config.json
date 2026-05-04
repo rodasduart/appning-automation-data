@@ -71,6 +71,12 @@
       "selectors": [
         { "type": "id", "value": "com.motorvision.ott:id/section_content"}
         ]
+    },
+    "icon_menu_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Motorvision"}
+      ]
     }
   }
 }
