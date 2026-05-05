@@ -1,0 +1,27 @@
+{                                                                                                                                                                                                                        
+    "packageName": "it.streamingmedia.funkyradio",
+    "screens": {
+      "browse_list_screen": {
+        "strategy": "KEEP_ONLY",
+        "selectors": [
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_nav_icon_container" },
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_search_view_container" },
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_menu_item_icon" }
+        ]
+      },
+      "player_screen": {
+        "strategy": "KEEP_ONLY",
+        "selectors": [
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_menu_item_icon" }
+        ]
+      },
+      "player_queue_screen": {
+        "strategy": "KEEP_ONLY",
+        "selectors": [
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_title_logo" },
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_title" },
+          { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_menu_item_icon" }
+        ]
+      }
+    }
+  }
