@@ -1,0 +1,68 @@
+{                                                                                                                                                                                                                                 
+"packageName": "aplicacion.tiempo",
+"screens": {                                                                                                                                                                                                                    
+    "icon_menu_screen": {
+    "strategy": "KEEP_ONLY",
+    "selectors": [                                                                                                                                                                                                              
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Meteored" }
+    ]                                                                                                                                                                                                                           
+    },          
+    "home_screen": {                                                                                                                                                                                                              
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/lista_dias" },
+        { "type": "id", "value": "aplicacion.tiempo:id/marco_superior" },
+        { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
+    ]                                                                                                                                                                                                                           
+    },
+    "home_screen_es": {                                                                                                                                                                                                              
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/lista_dias" },
+        { "type": "id", "value": "aplicacion.tiempo:id/marco_superior" },
+        { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
+    ]                                                                                                                                                                                                                           
+    },
+    "home_night_screen": {                                                                                                                                                                                                              
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/lista_dias" },
+        { "type": "id", "value": "aplicacion.tiempo:id/marco_superior" },
+        { "type": "id", "value": "aplicacion.tiempo:id/tarjeta" }                                                                                                                                                 
+    ]                                                                                                                                                                                                                           
+    },
+    "search_screen": {
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/card_live" },
+        { "type": "id", "value": "aplicacion.tiempo:id/consulta_mas_localidades" }
+    ]
+    },
+    "search_night_screen": {
+    "strategy": "MASK_DYNAMIC",
+    "selectors": [
+        { "type": "id", "value": "aplicacion.tiempo:id/card_live" },
+        { "type": "id", "value": "aplicacion.tiempo:id/consulta_mas_localidades" }
+    ]
+    },
+    "keyboard_screen": {
+        "strategy": "MASK_DYNAMIC",
+        "selectors": [
+            { "type": "id", "value": "aplicacion.tiempo:id/capa_transparente" }
+        ]
+    },
+    "settings_screen": {
+        "strategy": "MASK_DYNAMIC",
+        "selectors": [
+            { "type": "id", "value": "aplicacion.tiempo:id/lista" },
+            {"type": "id", "value": "aplicacion.tiempo:id/papito" }
+        ]
+    },
+    "terms_screen": {
+        "strategy":"KEEP_ONLY",
+        "selectors": [
+            { "type": "id", "value": "aplicacion.tiempo:id/scrollView_vneg" }
+        ]
+    }   
+}                                                                                                                                                                                                                               
+} 
