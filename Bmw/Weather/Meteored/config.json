@@ -1,13 +1,10 @@
 {                                                                                                                                                                                                                                 
 "packageName": "aplicacion.tiempo",
 "screens": {                                                                                                                                                                                                                    
-     "icon_menu_screen": {                                                                                                                                                                                                             
-      "strategy": "KEEP_ONLY",                                                                                                                                                                                                      
-      "selectors": [                                                                                                                                                                                                                
-          { "type": "id", "value": "com.bmwgroup.idnext.launcher:id/appitem_fg_image" },                                                                                                                                            
-          { "type": "id", "value": "com.bmwgroup.idnext.launcher:id/appitem_text" }                                                                                                                                                 
-      ]
-    },      
+    "icon_menu_screen": {
+      "strategy": "MASK_DYNAMIC",                                                                                                                                                                                                   
+      "selectors": []
+    },    
     "home_screen": {                                                                                                                                                                                                              
     "strategy": "MASK_DYNAMIC",
     "selectors": [
