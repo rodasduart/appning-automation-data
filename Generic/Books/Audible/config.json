@@ -1,0 +1,114 @@
+{
+  "packageName": "com.audible.application",
+  "screens": {
+    "song_player_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/playback_seek_bar_container"},
+        {"type": "id", "value": "com.android.car.media:id/current_time"}
+        ]
+    },
+    "liked_song_player_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/playback_controls"}
+      ]
+    },
+    "settings_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.spotify.music:id/toolbar" }
+      ]
+    },
+    "shuffled_song_player_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/playback_controls"}
+      ]
+    },
+    "search_keyboard_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/media_activity_root" }
+      ]
+    },
+    "search_keyboard_with_message_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/media_activity_root" }
+      ]
+    },
+    "icon_menu_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Spotify"}
+      ]
+    },
+    "podcast_speed_screen": {
+      "strategy": "KEEP_ONLY",
+      "selectors": [
+        { "type": "classWithAncestorId", "value": "android.widget.LinearLayout", "childText": "com.android.car.media:id/rows_container"}
+      ]
+    },
+    "library_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+         { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"}
+        ]
+    },
+    "library_es_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+         { "type": "id", "value": "com.android.car.media:id/minimized_playback_controls"}
+        ]
+    },
+    "minimized_player_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+      { "type": "id", "value": "com.android.car.media:id/linear_progress_bar"}
+        ]
+    },
+    "settings_stream_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+      { "type": "id", "value": "com.spotify.music:id/profile_layout"}
+        ]
+    },
+    "settings_storage_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+      { "type": "id", "value": "com.spotify.music:id/download_quality_layout"},
+      { "type": "id", "value": "com.spotify.music:id/storage_title"},
+      { "type": "id", "value": "com.spotify.music:id/remove_downloads_section"},
+      { "type": "id", "value": "com.spotify.music:id/clear_cache_section"}
+        ]
+    },
+    "settings_logout_screen": {
+      "strategy": "MASK_DYNAMIC", 
+      "selectors": [
+      { "type": "id", "value": "com.spotify.music:id/app_version"}
+        ]
+    },
+    "main_bar_screen": {
+      "strategy": "KEEP_ONLY",  
+      "selectors": [
+      { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_background"}
+        ]
+    },
+    "terms_and_conditions_beginning_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.audible.application:id/settings_container"}
+        ]
+    },
+    "terms_and_conditions_end_screen": {
+      "strategy": "KEEP_ONLY", 
+      "selectors": [
+        { "type": "id", "value": "com.audible.application:id/settings_container"}
+        ]
+    }
+  }
+}
+
+
+
