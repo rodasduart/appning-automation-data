@@ -1,0 +1,21 @@
+{
+"packageName": "de.ard.sportschau.auto",
+"screens": {
+    "icon_menu_screen": {
+    "strategy": "MASK_DYNAMIC",
+    "selectors": []
+    },
+    "home_screen": {
+    "strategy": "KEEP_ONLY",
+    "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/car_ui_toolbar_background" }
+    ]
+    },
+    "keyboard_screen": {
+    "strategy": "KEEP_ONLY",
+    "selectors": [
+        { "type": "id", "value": "com.android.car.media:id/focus_area" }
+    ]
+    }
+}
+}
