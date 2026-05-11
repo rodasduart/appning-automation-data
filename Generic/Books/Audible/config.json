@@ -14,12 +14,6 @@
         { "type": "id", "value": "com.android.car.media:id/playback_controls"}
       ]
     },
-    "settings_screen": {
-      "strategy": "KEEP_ONLY",
-      "selectors": [
-        { "type": "id", "value": "com.spotify.music:id/toolbar" }
-      ]
-    },
     "shuffled_song_player_screen": {
       "strategy": "KEEP_ONLY",
       "selectors": [
@@ -41,7 +35,7 @@
     "icon_menu_screen": {
       "strategy": "KEEP_ONLY",
       "selectors": [
-        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Spotify"}
+        { "type": "containerIdWithText", "value": "com.android.car.carlauncher:id/app_item", "childText": "Audible"}
       ]
     },
     "podcast_speed_screen": {
@@ -68,10 +62,10 @@
       { "type": "id", "value": "com.android.car.media:id/linear_progress_bar"}
         ]
     },
-    "settings_stream_screen": {
+    "settings_screen": {
       "strategy": "MASK_DYNAMIC", 
       "selectors": [
-      { "type": "id", "value": "com.spotify.music:id/profile_layout"}
+      { "type": "containerIdWithText", "value": "signOutButton", "childText": "Audible 2"}
         ]
     },
     "settings_storage_screen": {
